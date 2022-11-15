@@ -703,7 +703,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px 31px;
-  border: 1px solid var(--icon-color);
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -895,14 +895,14 @@ img {
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .work__button:focus {
-  background: var(--accent-color);
+  background: #2196f3;
   color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .work__button--current {
-  background: var(--accent-color);
+  background: #2196f3;
   color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -972,7 +972,7 @@ img {
 
 .work__desc {
   padding: 20px 24px;
-  border: 1px solid var(#ececec);
+  border: 1px solid #ececec;
 }
 
 .work__title {
@@ -1034,7 +1034,7 @@ img {
   top: 8px;
   width: 30px;
   height: 30px;
-  background: var(--primary-white-color);
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -1206,7 +1206,7 @@ img {
   background-image: url(../img/check.svg);
 }
 .privacy__input:focus + .privacy__icon {
-  outline: 2px solid var(--accent-color);
+  outline: 2px solid #2196f3;
   border-radius: 2px;
 }
 

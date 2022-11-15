@@ -93,7 +93,7 @@
 	}
 	&:focus {
 		&+.privacy__icon {
-			outline: 2px solid var(--accent-color);
+			outline: 2px solid $accent-color;
 			border-radius: 2px;
 		}
 	}
